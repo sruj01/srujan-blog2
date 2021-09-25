@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+:root{
+  --primary-color: #3CC3A1;
+}
+.navigation{
+  padding: 0.5rem 0.5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-top: 0.5rem;
+}
+.inline-list{
+  display: inline;
+  padding: 0 1rem;
+}
+.link-align{
+  text-align: right;
+}
+.link{
+padding: 0.2rem 0.7rem;
+text-decoration: none;
+color: black;
+font-size: 18px;
+}
+.nav-brand{
+  font-size: 20px;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+}
+
+h1{
+  text-align: center;
+}
+img{
+  margin: auto;
+  max-width: 60%;
+  display: block;
+  padding: 0.5rem;
+}
+.container{
+padding: 0rem 1rem;
+max-width: 1000px;
+margin: auto;
+text-align: justify;
+}
+.theme-color{
+  color: var(--primary-color);
+}
+
+.footer{
+  padding: 1rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+
+.footer-heading{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+
+.footer-link{
+  color: var(--primary-color);
+  text-decoration: none;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  font-size: 19px;
+}
+
+.footer-link-align{
+  text-align: center;
+}
+
+.footer ul{
+  padding-inline-start: 0px;
+}
+li{
+  list-style-type: none;
+}
