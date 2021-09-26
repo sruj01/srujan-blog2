@@ -3,9 +3,7 @@ body{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
-:root{
-  --primary-color: #3CC3A1;
-}
+
 .navigation{
   padding: 0.5rem 0.5rem;
   margin-left: 6rem;
@@ -46,23 +44,16 @@ max-width: 1000px;
 margin: auto;
 text-align: justify;
 }
-.theme-color{
-  color: var(--primary-color);
-}
+
 
 .footer{
   padding: 1rem;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-heading{
-  color: var(--primary-color);
   text-align: center;
   font-weight: lighter;
   font-size: 17px;
@@ -70,11 +61,11 @@ text-align: justify;
 
 
 .footer-link{
-  color: var(--primary-color);
   text-decoration: none;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   font-size: 19px;
+  color: black;
 }
 
 .footer-link-align{
